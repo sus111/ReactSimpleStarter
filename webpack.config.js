@@ -4,12 +4,9 @@ module.exports = {
   entry: [
     './src/index.js'
   ],
-  // plugins: [
-  //   new DotenvPlugin({
-  //     sample: './.env.default',
-  //     path: './.env'
-  //   })
-  // ],
+// node: {
+//   fs: "empty"
+// },
   output: {
     path: __dirname,
     publicPath: '/',
