@@ -1,7 +1,15 @@
+const DotenvPlugin = require('webpack-dotenv-plugin');
+
 module.exports = {
   entry: [
     './src/index.js'
   ],
+  // plugins: [
+  //   new DotenvPlugin({
+  //     sample: './.env.default',
+  //     path: './.env'
+  //   })
+  // ],
   output: {
     path: __dirname,
     publicPath: '/',
